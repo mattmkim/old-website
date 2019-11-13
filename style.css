@@ -1,6 +1,8 @@
 img.profile-picture {
-	height: 300px; 
-    width: 300px; 
+	max-height: 300px; 
+    max-width: 300px; 
+    height: auto;
+    width: auto;
  	border-radius: 50%;
     overflow: hidden;
     perspective: 1px;

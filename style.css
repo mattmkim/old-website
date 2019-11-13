@@ -1,9 +1,9 @@
 img.profile-picture {
 	height: auto; 
     width: auto; 
-    background-size: cover;
-	display: block;
- 	border-radius: 100px;
-    width: 300px; 
-    height: 300px;
+ 	border-radius: 50%;
+    max-width: 300px; 
+    max-height: 300px;
+    overflow: hidden;
+    perspective: 1px;
 }

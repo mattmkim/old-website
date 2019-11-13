@@ -3,7 +3,7 @@ img.profile-picture {
     max-width: 300px; 
     height: auto;
     width: auto;
- 	border-radius: 50%;
+ 	border-radius: 100px;
     overflow: hidden;
     perspective: 1px;
 }

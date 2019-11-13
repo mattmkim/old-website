@@ -1,7 +1,9 @@
 img.profile-picture {
 	height: auto; 
     width: auto; 
-    border-radius: 50%;
+    background-size: cover;
+	display: block;
+ 	border-radius: 100px;
     max-width: 300px; 
     max-height: 300px;
 }

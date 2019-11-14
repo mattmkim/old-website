@@ -39,3 +39,10 @@ img.profile-picture {
 	grid-column-start: 1;
 	grid-column-end: 4;
 }
+
+.intro {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 5;
+	grid-column-end: 8;
+}

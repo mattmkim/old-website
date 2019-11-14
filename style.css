@@ -8,7 +8,7 @@ body {
 }
 
 .document {
-	height: 100%;
+	height: inherit;
 	display: grid;
 	padding: 10px;
 	grid-template-rows: repeat(5, 1fr);

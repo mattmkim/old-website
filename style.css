@@ -25,9 +25,7 @@ body {
 
 
 img.profile-picture {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	align-self: center;
 	max-height: 200px; 
     max-width: 200px; 
     height: auto;
@@ -45,7 +43,7 @@ img.profile-picture {
 }
 
 h1.name {
-	font-family: Lato,sans-serif;
+	font-family: "HarmoniaSans W01 Bold", sans-serif;
 }
 
 #list-inline ul {

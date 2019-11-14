@@ -24,7 +24,8 @@ body {
 }
 
 div.picture {
-	align-self: center;
+	display:flex;
+  	align-items: center;
 }
 
 img.profile-picture {

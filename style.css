@@ -11,7 +11,7 @@ body {
 	height: inherit;
 	display: grid;
 	padding: 10px;
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-rows: 250px auto 250px;
 	grid-template-columns: 300px auto 300px;
 }
 
@@ -39,6 +39,10 @@ img.profile-picture {
 .intro {
 	grid-row: 1;
 	grid-column: 2;
+}
+
+h1.name {
+	font-family: "HarmoniaSans W01 Bold", sans-serif;
 }
 
 #list-inline ul {

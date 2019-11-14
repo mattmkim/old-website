@@ -40,10 +40,11 @@ img.profile-picture {
 	grid-column: 3;
 }
 
-#list-inline ul{
-	list-style-type: none;
+#list-inline {
+	list-style: none;
 }
 
 #list-inline li {
 	display: inline;
+	list-style-type: none;
 }

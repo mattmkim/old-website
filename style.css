@@ -10,7 +10,7 @@ body {
 .document {
 	display: grid;
 	padding: 10px;
-	grid-template-rows: repeat(1, 5fr);
+	grid-template-rows: repeat(5, 1fr);
 	grid-template-columns: 200px auto 200px;
 }
 

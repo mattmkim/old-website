@@ -31,8 +31,8 @@ img.profile-picture {
  	border-radius: 100px;
     overflow: hidden;
     perspective: 1px;
-    /*grid-row: 1;
-	grid-column: 1;*/
+    grid-row: 1;
+	grid-column: 1;
 }
 
 /*.intro {

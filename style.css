@@ -40,6 +40,6 @@ img.profile-picture {
 	grid-column: 3;
 }
 
-.list-inline {
+ul.list-inline {
 	display: inline;
 }

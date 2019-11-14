@@ -39,9 +39,9 @@ img.profile-picture {
 	grid-column-end: 4;
 }
 
-/*.intro {
+.intro {
 	grid-row-start: 1;
 	grid-row-end: 4;
 	grid-column-start: 5;
 	grid-column-end: 8;
-}*/
+}

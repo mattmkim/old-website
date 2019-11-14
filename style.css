@@ -13,7 +13,6 @@ body {
 	grid-template-columns: repeat(5, 1fr);
 }
 
-
 .header {
 	grid-row-start: 1;
 	grid-row-end: 2;
@@ -33,10 +32,8 @@ img.profile-picture {
  	border-radius: 100px;
     overflow: hidden;
     perspective: 1px;
-    grid-row-start: 1;
-	grid-row-end: 8;
-	grid-column-start: 1;
-	grid-column-end: 4;
+    grid-row: 1;
+	grid-column: 1;
 }
 
 .intro {

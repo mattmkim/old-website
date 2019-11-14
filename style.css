@@ -41,10 +41,9 @@ img.profile-picture {
 }
 
 #list-inline ul {
-	list-style-type: none;
+	list-style: none;
 }
 
 #list-inline li {
 	display: inline;
-	list-style-type: none;
 }

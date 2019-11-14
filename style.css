@@ -40,7 +40,7 @@ img.profile-picture {
 	grid-column: 3;
 }
 
-#list-inline {
+#list-inline ul {
 	list-style: none;
 }
 

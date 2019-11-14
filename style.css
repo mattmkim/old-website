@@ -10,13 +10,13 @@ body {
 .document {
 	display: grid;
 	padding: 10px;
-	grid-template-rows: repeat(5, 1fr);
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(1, 5fr);
+	grid-template-columns: 200px auto 200px;
 }
 
 .header {
 	grid-row: 1;
-	grid-column: 4;
+	grid-column: 2;
 	display: grid;
 	grid-template-rows: repeat(8, 1fr); 
 	grid-template-columns: repeat(8, 1fr);

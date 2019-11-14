@@ -8,6 +8,7 @@ body {
 }
 
 .document {
+	min-height: 100%;
 	display: grid;
 	padding: 10px;
 	grid-template-rows: repeat(5, 1fr);

@@ -1,17 +1,18 @@
 html {
-    /* To make use of full height of page*/
     min-height: 100%;
+    min-width: 100%;
     margin: 0;
 }
 body {
     min-height: 100%;
+    min-width: 100%;
     margin: 0;
 }
 
 .document {
 	display: grid;
+	grid-template-rows: 25% 50% 25%;
 	grid-template-columns: 20% 60% 20%;
-  	grid-template-rows: 25% 50% 25%;
 }
 
 

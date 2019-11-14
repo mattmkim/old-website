@@ -32,7 +32,8 @@ img.profile-picture {
     overflow: hidden;
     perspective: 1px;
     grid-row: 1;
-	grid-column: 1;
+	grid-column-start: 1;
+	grid-column-end: 2;
 }
 
 .intro {

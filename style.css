@@ -40,10 +40,10 @@ img.profile-picture {
 	grid-column: 3;
 }
 
-ul.list-inline {
-	display: inline;
+#list-inline ul{
+	list-style: none;
 }
 
-li {
-  float: left;
+#list-inline li {
+	display: inline;
 }

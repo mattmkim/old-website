@@ -8,6 +8,7 @@ body {
 }
 
 .document {
+	position: absolute;
 	min-height: 100%;
 	display: grid;
 	padding: 10px;

@@ -35,7 +35,11 @@ img.profile-picture {
 	grid-column: 1;
 }
 
-/*.intro {
+.intro {
 	grid-row: 1;
 	grid-column: 3;
-}*/
+}
+
+.list-inline {
+	display: inline;
+}

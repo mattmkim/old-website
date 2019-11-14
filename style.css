@@ -19,9 +19,9 @@ body {
 	grid-row-end: 2;
 	grid-column-start: 2;
 	grid-column-end: 4;
-	/*display: grid;
+	display: grid;
 	grid-template-rows: repeat(8, 1fr); 
-	grid-template-columns: repeat(8, 1fr);*/
+	grid-template-columns: repeat(8, 1fr);
 }
 
 
@@ -33,10 +33,10 @@ img.profile-picture {
  	border-radius: 100px;
     overflow: hidden;
     perspective: 1px;
-    /*grid-row-start: 1;
+    grid-row-start: 1;
 	grid-row-end: 8;
 	grid-column-start: 1;
-	grid-column-end: 4;*/
+	grid-column-end: 4;
 }
 
 /*.intro {

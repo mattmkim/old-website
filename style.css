@@ -1,11 +1,10 @@
-// 5 cols, 3 rows
-div.document {
+.document {
 	display: grid;
 	grid-template-columns: 40px 50px auto 50px 40px;
   	grid-template-rows: 25% 100px auto;
 }
 
-div.picture {
+.picture {
 	grid-column-start: 3;
   	grid-column-end: 3;
   	grid-row-start: 1;

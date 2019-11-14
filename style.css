@@ -42,6 +42,7 @@ img.profile-picture {
 }
 
 #list-inline ul {
+	grid-column: 8;
 	list-style: none;
 }
 

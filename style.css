@@ -23,9 +23,11 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 }
 
+div.picture {
+	align-self: center;
+}
 
 img.profile-picture {
-	align-self: center;
 	max-height: 200px; 
     max-width: 200px; 
     height: auto;

@@ -11,7 +11,7 @@ body {
 	display: grid;
 	padding: 10px;
 	grid-template-rows: repeat(5, 1fr);
-	grid-template-columns: 200px auto 200px;
+	grid-template-columns: 300px auto 300px;
 }
 
 .header {
@@ -37,7 +37,8 @@ img.profile-picture {
 
 .intro {
 	grid-row: 1;
-	grid-column: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 #list-inline ul {

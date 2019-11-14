@@ -9,7 +9,7 @@ body {
 
 .document {
 	display: grid;
-	grid-template-rows: 25% 50% 25%;
+	grid-template-rows: 10% 40% 50%;
 	grid-template-columns: 20% 60% 20%;
 }
 

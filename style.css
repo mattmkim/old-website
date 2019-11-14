@@ -33,15 +33,15 @@ img.profile-picture {
  	border-radius: 100px;
     overflow: hidden;
     perspective: 1px;
-    grid-row-start: 1;
+    /*grid-row-start: 1;
 	grid-row-end: 8;
 	grid-column-start: 1;
-	grid-column-end: 4;
+	grid-column-end: 4;*/
 }
 
-.intro {
+/*.intro {
 	grid-row-start: 1;
 	grid-row-end: 4;
 	grid-column-start: 5;
 	grid-column-end: 8;
-}
+}*/

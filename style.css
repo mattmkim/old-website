@@ -23,7 +23,7 @@ body {
 }
 
 
-img.profile-picture {
+.profile-picture {
 	max-height: 200px; 
     max-width: 200px; 
     height: auto;

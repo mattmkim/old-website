@@ -23,7 +23,7 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 }
 
-div.picture {
+.picture {
 	display:flex;
   	align-items: center;
 }

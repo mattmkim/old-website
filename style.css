@@ -23,12 +23,8 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 }
 
-.picture {
-	display:flex;
-  	align-items: center;
-}
-
-img.profile-picture {
+.header .profile-picture {
+	margin-left: 30px;
 	max-height: 200px; 
     max-width: 200px; 
     height: auto;

@@ -1,3 +1,7 @@
+/* 
+Make sure to eventually upload all images to github and change image sources.
+*/
+
 html {
     height: 100%;
     margin: 0;
@@ -213,21 +217,36 @@ ul.list-inline li {
 }
 
 .edu-exp-wrapper .education-item h4 {
+	display: inline-flex;
 	font-size: 19.4px; 
-	margin-top: 0px; 
+	margin-top: 3px; 
+	margin-left: 5px;
+}
+
+.edu-exp-wrapper .education-item .upenn-logo {
+	display: block;
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 340px;
 }
 
 .edu-exp-wrapper .education-item h5 {
 	font-size: 16.2px; 
 	font-weight: normal;
 	color: #8A8A88;
-	margin-top: -15px; 
+	margin-top: -45px;
+	margin-left: 5px; 
 }
 
 .edu-exp-wrapper .education-item p {
 	font-size: 16.2px; 
 	font-weight: normal;
 	margin-top: -15px; 
+	margin-left: 5px;
+	margin-bottom: 7px;
 }
 
 .edu-exp-wrapper .high-school-item {
@@ -261,7 +280,6 @@ ul.list-inline li {
 	margin-top: -15px; 
 }
 
-
 /* projects section */
 
 .projects-wrapper {
@@ -279,7 +297,6 @@ ul.list-inline li {
 	border-width: 3.3px;
 	border-color: #E5AE40;
 }*/
-
 
 .project-content {
 	grid-row: 3;

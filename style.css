@@ -16,17 +16,22 @@ body {
 	display: grid;
 	padding: 20px;
 	grid-template-rows: 250px 75px auto;
-	grid-template-columns: 375px auto 100px 450px;
+	grid-template-columns: 50px 350px auto 50px 415px 50px;
 }
 
 .header {
 	padding: 10px;
 	grid-row: 1;
-	grid-column-start: 2;
+	grid-column-start: 3;
 	grid-column-end: 4;
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: center;
+	background-color: #FFFAEA;
+	/*border-style: solid;
+	border-width: 1.3px;
+	border-color: #E5AE40;*/
+
 }
 
 .header .profile-picture {
@@ -71,7 +76,7 @@ body {
 
 .social-media { 
 	grid-row: 1;
-	grid-column: 4;
+	grid-column: 5;
 	display: flex;
 	flex-direction: row;
 	margin-right: 20px;
@@ -146,10 +151,11 @@ ul.list-inline li {
 
 .skills-wrapper {
 	grid-row: 2;
-	grid-column: 1;
+	grid-column: 2;
 	margin-left: 20px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
+	margin-right: 20px;
  }
 
 /*.skills-wrapper .skills {
@@ -161,7 +167,7 @@ ul.list-inline li {
 
 .skills-wrapper .skills-content {
 	grid-row: 3;
-	grid-column: 1;
+	grid-column: 2;
 	border-style: solid;
 	border-color: #E5AE40;
 	border-width: 1.3px;
@@ -191,7 +197,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper {
 	grid-row: 2;
-	grid-column: 2;
+	grid-column: 3;
 	margin-left: 18px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
@@ -206,7 +212,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper .education-item {
 	grid-row: 3;
-	grid-column: 2;
+	grid-column: 3;
 	display: flex;
 	flex-direction: column;
 	padding: 4.3px;
@@ -226,12 +232,12 @@ ul.list-inline li {
 
 .edu-exp-wrapper .education-item .upenn-logo {
 	display: block;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 60px;
+	max-height: 60px;
 	width: auto;
 	height: auto;
 	margin-top: 0px;
-	margin-left: 330px;
+	margin-left: 350px;
 }
 
 .edu-exp-wrapper .education-item h5 {
@@ -252,7 +258,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper .high-school-item {
 	grid-row: 3;
-	grid-column: 2;
+	grid-column: 3;
 	display: flex;
 	flex-direction: column;
 	padding: 4.3px;
@@ -294,12 +300,128 @@ ul.list-inline li {
 	margin-left: 5px;
 }
 
+.edu-exp-wrapper .TA-item {
+	grid-row: 3;
+	grid-column: 3;
+	display: flex;
+	flex-direction: column;
+	padding: 4.3px;
+	margin-right: 5px;
+	border-style: solid;
+	border-width: 1.3px;
+	border-color: #E5AE40;
+}
+
+.edu-exp-wrapper .TA-item h4 {
+	font-size: 19.4px; 
+	margin-top: 0px; 
+	margin-left: 5px;
+}
+
+.edu-exp-wrapper .TA-item .upenn-logo {
+	display: block;
+	max-width: 60px;
+	max-height: 60px;
+	width: auto;
+	height: auto;
+	margin-top: -23px;
+	margin-left: 574px;
+}
+
+.edu-exp-wrapper .TA-item h5 {
+	font-size: 16.2px; 
+	font-weight: normal;
+	color: #8A8A88;
+	margin-top: -55px;
+	margin-left: 5px; 
+}
+
+.edu-exp-wrapper .upenn-research-item {
+	grid-row: 3;
+	grid-column: 3;
+	display: flex;
+	flex-direction: column;
+	padding: 4.3px;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 1.3px;
+	border-color: #E5AE40;
+}
+
+.edu-exp-wrapper .upenn-research-item h4 {
+	font-size: 19.4px; 
+	margin-top: 0px; 
+	margin-left: 5px;
+	margin-right: 0px; 
+}
+
+.edu-exp-wrapper .upenn-research-item .upenn-logo {
+	display: block;
+	max-width: 60px;
+	max-height: 60px;
+	width: auto;
+	height: auto;
+	margin-top: -23px;
+	margin-left: 574px;
+}
+
+.edu-exp-wrapper .upenn-research-item h5 {
+	font-size: 16.2px; 
+	font-weight: normal;
+	color: #8A8A88;
+	margin-top: -55px;
+	margin-left: 5px; 
+}
+
+.edu-exp-wrapper .princeton-research-item {
+	grid-row: 3;
+	grid-column: 3;
+	display: flex;
+	flex-direction: column;
+	padding: 4.3px;
+	margin-right: 5px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 1.3px;
+	border-color: #E5AE40;
+}
+
+.edu-exp-wrapper .princeton-research-item h4 {
+	font-size: 19.4px; 
+	margin-top: 0px; 
+	margin-left: 5px;
+	margin-right: 0px; 
+}
+
+.edu-exp-wrapper .princeton-research-item .princeton-logo {
+	display: block;
+	max-width: 60px;
+	max-height: 60px;
+	width: auto;
+	height: auto;
+	margin-top: -23px;
+	margin-left: 574px;
+}
+
+.edu-exp-wrapper .princeton-research-item h5 {
+	font-size: 16.2px; 
+	font-weight: normal;
+	color: #8A8A88;
+	margin-top: -55px;
+	margin-left: 5px; 
+}
+
+.edu-exp-wrapper li {
+	font-weight: normal;
+}
+
 /* projects section */
 
 .projects-wrapper {
 	grid-row: 2;
-	grid-column-start: 3;
-	grid-column-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
 	margin-left: 20px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
@@ -314,6 +436,6 @@ ul.list-inline li {
 
 .project-content {
 	grid-row: 3;
-	grid-column: 3;
+	grid-column: 4;
 	font-family: "Open Sans",Roboto, sans-serif;
 }

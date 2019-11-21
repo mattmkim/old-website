@@ -16,22 +16,21 @@ body {
 	display: grid;
 	padding: 20px;
 	grid-template-rows: 250px 75px auto;
-	grid-template-columns: 50px 350px auto 50px 415px 50px;
+	grid-template-columns: 50px 310px auto 90px 415px 50px;
 }
 
 .header {
 	padding: 10px;
 	grid-row: 1;
 	grid-column-start: 3;
-	grid-column-end: 4;
+	grid-column-end: 5;
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: center;
 	background-color: #FFFAEA;
-	/*border-style: solid;
-	border-width: 1.3px;
-	border-color: #E5AE40;*/
-
+	border-style: double;
+	border-width: 4px;
+	border-color: #E5AE40;
 }
 
 .header .profile-picture {
@@ -152,45 +151,46 @@ ul.list-inline li {
 .skills-wrapper {
 	grid-row: 2;
 	grid-column: 2;
-	margin-left: 20px;
+	margin-left: 10px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
 	margin-right: 20px;
  }
 
-/*.skills-wrapper .skills {
-	padding: 3px; 
-	border-style: solid;
-	border-width: 3.3px;
-	border-color: #E5AE40;
-}*/
-
 .skills-wrapper .skills-content {
 	grid-row: 3;
 	grid-column: 2;
-	border-style: solid;
+	border-style: double;
 	border-color: #E5AE40;
-	border-width: 1.3px;
-	display: grid;
-	grid-template-columns: 200px 180px;
-	grid-template-rows: 75px 110px auto;
+	border-width: 4px;
+	background-color: #FFFAEA;
+	display: flex;
+	flex-direction: column;
 	font-family: 'Roboto Slab', serif;
 	font-weight: normal;
+	margin-left: 0px;
+	margin-right: 20px;
 }
 
 .skills-wrapper .skills-content p{
 	font-size: 15px;
-	margin-left: 4px;
+	margin-left: 15px;
 }
 
 .skills-wrapper .skills-content h3{
-	margin-left: 4px;
+	margin-left: 15px;
 }
+
+/*.skills-wrapper .skills-content span {
+	border-style: solid;
+	border-color: #E5AE40;
+	border-width: 1.3px;
+}*/
 
 .skills-wrapper .skills-content .skills-item {
 	margin-top: 2px;
 	margin-bottom: 2px;
-	font-size: 16px; 
+	font-size: 20px; 
 }
 
 /* education/experience section */
@@ -198,17 +198,10 @@ ul.list-inline li {
 .edu-exp-wrapper {
 	grid-row: 2;
 	grid-column: 3;
-	margin-left: 18px;
+	margin-left: 20px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 800;
 }
-
-/*.education-wrapper .education {
-	padding: 3px; 
-	border-style: solid;
-	border-width: 3.3px;
-	border-color: #E5AE40;
-}*/
 
 .edu-exp-wrapper .education-item {
 	grid-row: 3;
@@ -237,14 +230,14 @@ ul.list-inline li {
 	width: auto;
 	height: auto;
 	margin-top: 0px;
-	margin-left: 350px;
+	margin-left: 360px;
 }
 
 .edu-exp-wrapper .education-item h5 {
 	font-size: 16.2px; 
 	font-weight: normal;
 	color: #8A8A88;
-	margin-top: -45px;
+	margin-top: -55px;
 	margin-left: 5px; 
 }
 
@@ -282,7 +275,7 @@ ul.list-inline li {
 	width: auto;
 	height: auto;
 	margin-top: -23px;
-	margin-left: 574px;
+	margin-left: 610px;
 }
 
 .edu-exp-wrapper .high-school-item h5 {
@@ -298,6 +291,7 @@ ul.list-inline li {
 	font-weight: normal;
 	margin-top: -15px; 
 	margin-left: 5px;
+	margin-bottom: 5px;
 }
 
 .edu-exp-wrapper .TA-item {
@@ -314,7 +308,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper .TA-item h4 {
 	font-size: 19.4px; 
-	margin-top: 0px; 
+	margin-top: 5px; 
 	margin-left: 5px;
 }
 
@@ -324,16 +318,22 @@ ul.list-inline li {
 	max-height: 60px;
 	width: auto;
 	height: auto;
-	margin-top: -23px;
-	margin-left: 574px;
+	margin-top: -45px;
+	margin-left: 610px;
 }
 
 .edu-exp-wrapper .TA-item h5 {
 	font-size: 16.2px; 
 	font-weight: normal;
 	color: #8A8A88;
-	margin-top: -55px;
+	margin-top: -35px;
 	margin-left: 5px; 
+}
+
+.edu-exp-wrapper .TA-item ul {
+	font-weight: normal;
+	margin-top: -17px;
+	margin-left: -10px;
 }
 
 .edu-exp-wrapper .upenn-research-item {
@@ -351,7 +351,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper .upenn-research-item h4 {
 	font-size: 19.4px; 
-	margin-top: 0px; 
+	margin-top: 5px; 
 	margin-left: 5px;
 	margin-right: 0px; 
 }
@@ -362,16 +362,22 @@ ul.list-inline li {
 	max-height: 60px;
 	width: auto;
 	height: auto;
-	margin-top: -23px;
-	margin-left: 574px;
+	margin-top: -45px;
+	margin-left: 610px;
 }
 
 .edu-exp-wrapper .upenn-research-item h5 {
 	font-size: 16.2px; 
 	font-weight: normal;
 	color: #8A8A88;
-	margin-top: -55px;
+	margin-top: -35px;
 	margin-left: 5px; 
+}
+
+.edu-exp-wrapper .upenn-research-item ul {
+	font-weight: normal;
+	margin-top: -17px;
+	margin-left: -10px;
 }
 
 .edu-exp-wrapper .princeton-research-item {
@@ -389,7 +395,7 @@ ul.list-inline li {
 
 .edu-exp-wrapper .princeton-research-item h4 {
 	font-size: 19.4px; 
-	margin-top: 0px; 
+	margin-top: 5px; 
 	margin-left: 5px;
 	margin-right: 0px; 
 }
@@ -400,20 +406,22 @@ ul.list-inline li {
 	max-height: 60px;
 	width: auto;
 	height: auto;
-	margin-top: -23px;
-	margin-left: 574px;
+	margin-top: -45px;
+	margin-left: 615px;
 }
 
 .edu-exp-wrapper .princeton-research-item h5 {
 	font-size: 16.2px; 
 	font-weight: normal;
 	color: #8A8A88;
-	margin-top: -55px;
+	margin-top: -35px;
 	margin-left: 5px; 
 }
 
-.edu-exp-wrapper li {
+.edu-exp-wrapper .princeton-research-item ul {
 	font-weight: normal;
+	margin-top: -17px;
+	margin-left: -10px;
 }
 
 /* projects section */
@@ -427,12 +435,6 @@ ul.list-inline li {
 	font-weight: 800;
 }
 
-/*.projects-wrapper .projects {
-	padding: 3px; 
-	border-style: solid;
-	border-width: 3.3px;
-	border-color: #E5AE40;
-}*/
 
 .project-content {
 	grid-row: 3;
